@@ -91,6 +91,6 @@ if __name__ == '__main__':
 
     if args.output_dir:
         os.makedirs(args.output_dir, exist_ok=True)
-        extensions = ['mp4', 'flv', 'webm', '3gp', 'm4a', 'mp3', 'ogg', 'aac', 'wav']
+        extensions = ['mp4', 'flv', 'webm', '3gp', 'm4a', 'mp3', 'ogg', 'aac', 'wav', 'mkv']
         for ext in extensions:
             os.system(f'mv *.{ext} {args.output_dir}')

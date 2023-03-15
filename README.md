@@ -7,6 +7,11 @@ conda activate yt-downloader
 bash yt-downloader.sh [URL OR TXT OF URLS] [OUTPUT_DIR]
 ```
 
+- Get Audio
+```bash
+bash get_audio.sh [VIDEO PATH] [OUTPUT AUDIO PATH]
+```
+
 ## Requirements
 - python=3.7 (Anaconda recommanded)
 - youtube_dl

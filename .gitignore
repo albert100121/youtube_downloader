@@ -1,3 +1,16 @@
+# python
 *.pyc
+# vid and aud
 *.mp4
-downloaded_videos
+*.mp4 
+*.flv
+*.webm
+*.3gp
+*.m4a
+*.mp3
+*.ogg
+*.aac
+*.wav
+*.mkv
+# Mac
+*.DS_Store
